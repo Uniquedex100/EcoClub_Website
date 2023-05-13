@@ -1,0 +1,104 @@
+#content1{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#text1{
+    color: aliceblue;
+    font-size: 140%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 40px;
+    width:30vw;
+}
+#heading1{
+    color: aliceblue;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0px;
+    background-color: rgba(255, 255 , 255, 0.3);
+}
+#aboutUs{
+    background-color: rgba(255, 255 , 255, 0.3);
+    padding: 10px;
+}
+#instaFeed{
+    background-color: rgba(207, 81, 197, 0.3);
+    padding: 40px 80px 80px 40px;
+}
+#img1{
+    width: 55vw;
+}
+
+.fa {  
+    margin-top: 10px;
+    padding: 30px; 
+    background-repeat: no-repeat; 
+    text-align: bottom;  
+    margin: 5px 5px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+.fa-instagram {  
+    background-image : url("insta.png");  
+    color: white;  
+  } 
+  .fa-youtube {  
+    background-image : url("in.png");  
+    color: white;  
+  }  
+  .fa-linkedin {  
+    background-image : url("yt.png");  
+    color: white;  
+  }  
+  .fa:hover {  
+    opacity: 0.9;  
+} 
+
+#linkHead{
+    color: aliceblue;
+    padding: 10px 10px 30px 10px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger ;
+    border: 5px solid white;
+}
+#linkHeadHead{
+    padding: 20px;
+}
+
+#insta1{
+    width:100%;
+    text-align: center;
+    padding: 00vw 12vw 0vw 12vw;
+}
+
+@media screen and (max-width: 739px) {
+    /* rules for small screens */
+    #content1{
+        display: block;
+        align-content: center;
+        align-items: center;
+        font-size: smaller;
+        padding-block: 0px;
+    }
+    #text1{
+        width: 60vw;
+    }
+    #insta1{
+        padding:3vw
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px){
+    #insta1{padding:0vw 4vw 0vw 4vw;}
+}
+@media screen and (min-width: 800px) and (max-width: 900px){
+    #insta1{padding:0vw 1vw 0vw 1vw;}
+}
+@media screen and (min-width: 739px) and (max-width: 800px){
+    #insta1{padding:0vw 0vw 0vw 0vw;}
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    #insta1{padding:0vw 6vw 0vw 6vw;}
+}
